@@ -1,0 +1,77 @@
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.skill img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.skill-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-percent {
+  font-size: 0.8rem;
+}
+
+.education {
+  margin-top: 20px;
+}
+
+
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.education-name {
+  font-weight: bold;
+}
+
+.employment {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.employment-item {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

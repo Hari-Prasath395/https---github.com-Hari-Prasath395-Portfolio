@@ -1,0 +1,130 @@
+/* .project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+
+}
+.project-card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;
+    padding-bottom: 5rem;
+  
+
+}
+
+.project-card{
+    background-color: rgb(52, 41, 41);
+    padding: 1.2rem,1rem;
+
+   
+    
+}
+.project-card img{
+    width: 100%;
+ 
+}
+.project-title{
+    padding: 1rem;
+    color: white;
+}
+.proj-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    text-align: justify ;
+}
+.proj-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.4rem;
+}
+
+.project-container{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,16,65,0.9445903361344538) 35%, rgba(45,16,65,0.9445903361344538) 100%);
+}
+
+@media screen and (max-width:720px){
+    .project-card-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+
+    }
+    
+} */
+
+.project-container {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,16,65,0.9445903361344538) 35%, rgba(45,16,65,0.9445903361344538) 100%);
+    border-radius: 10px;
+  }
+  
+  .project-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  
+  .proj-details {
+    padding: 10px;
+    background-color: #6f5a5a;
+  }
+  
+  .proj-details p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .proj-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .proj-btns .btn {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: rgb(243, 243, 10);
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .proj-btns .btn:hover {
+    background-color: green;
+  }
+  
